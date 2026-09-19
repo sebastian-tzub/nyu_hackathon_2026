@@ -85,3 +85,46 @@ Once selected, keep these decisions consistent across development and review. Ne
 ## Source
 
 Synthesized from the organizer brief supplied by the team: “Trust in the Hiring Funnel,” co-hosted by localhost:nyc, Integral Recruiting (IRD) and NYU. The MVP principles and demo checks above are proposed implementation guidance, not additional organizer rules.
+
+Also read PRODUCT_SPEC.md before planning, implementing or reviewing features. Use it as the source of truth for the intended solution, MVP scope and acceptance criteria.
+
+Hiring has a trust crisis on both sides of the funnel — recruiters can't tell which applicants are real, and candidates can't tell which employers are. Talent acquisition runs on a basic assumption: that the person applying is who they say they are, and that the company reaching out is who it says it is. Generative AI has broken both halves of that assumption at once. Your job for the day is to rebuild it.
+
+​You can attack either side of the funnel — or the seam between them.
+
+​Side A — Trust coming in: the applicant flood. A role that used to draw 30 applicants now draws 500, and a growing share aren't real, aren't qualified, or are gaming the system. Candidates embed hidden prompt-injection text to manipulate the AI tools that screen resumes. And increasingly, applicants appear qualified but look strikingly alike — the same phrasing, the same structure, the same accomplishments — a tell that everyone is leaning on the same AI tools to write their applications. Recruiters are drowning, and the tools meant to help have no clear winner yet. The challenge: reliably separate real, qualified humans from AI-inflated noise — without punishing legitimate candidates who simply used AI to polish their resume.
+
+​Questions worth chasing:
+
+​- What signals — behavioral, identity, provenance — actually distinguish a real applicant from a manufactured one?
+
+​- When applications converge on the same AI-generated look, how do you tell genuine signal from sameness?
+
+​- How do you detect a manipulated or machine-generated application without false-flagging honest people?
+
+​- How do you surface the candidates who deserve attention fast, inside an existing recruiting workflow rather than replacing it?
+
+​Side B — Trust going out: impersonation and candidate scams. Bad actors register look-alike domains to send fake offer letters, run deepfake recruiter calls, and scam job seekers out of money and data. Employers have almost no way to detect it or warn candidates. The challenge: make it harder to impersonate a real employer, and easier for a candidate to verify that an offer or a recruiter is genuine.
+
+​Questions worth chasing:
+
+- ​How would a candidate confirm that an offer or outreach is legitimately from the company?
+
+- Can impersonating domains be detected and flagged early?
+
+- What does a lightweight "trust signal" look like on a careers page or an offer letter?
+
+Requirements
+What to Build
+
+A working tool that raises trust somewhere in the hiring funnel — built during the event. It should solve a narrow, specific slice of the problem and fit the way hiring actually happens. A real, running solution to a small problem beats a broad concept that doesn't execute.
+
+What to Submit
+
+On your Devpost project page, include:
+
+Project name and a description
+What you built and why
+Tools and technologies used
+Team member names and roles
+Link to your live demo video.
