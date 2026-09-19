@@ -1,0 +1,15 @@
+---
+description: Automatically build requested MVP features through development, independent reviews and approved delivery.
+alwaysApply: true
+---
+
+# Feature requests should just work
+
+For the parent agent in Cursor Agent mode:
+- When the user asks to add, build, implement, improve or fix a product feature, read `.cursor/skills/hackathon-feature/SKILL.md` and run it automatically. A plain sentence is sufficient. Never require a slash command, template, named skill or setup questionnaire.
+- For “ship”, “merge” or “integrate” requests, use `.cursor/skills/git-delivery/SKILL.md` or `.cursor/skills/git-integration/SKILL.md` as appropriate; retain the two-review gate and existing permissions.
+- Infer routine details from the repository. Choose sensible defaults and proceed. Ask only when missing information prevents correct work or an external action lacks authorization; do not re-ask for existing authorization.
+- Handle agent selection, worktrees, checks, reviewer retries and Git internally. Give brief updates and finish with what changed, verification and commit/delivery status. Do not make the user coordinate agents or inspect internal logs.
+- Do not run the pipeline for explanations, brainstorming, read-only investigation or unrelated tasks. Honor requests to plan only or stop.
+
+For delegated subagents: follow your assigned agent role and its skill. Do not start this coordinator, spawn duplicate pipelines, or deliver commits yourself. The parent alone coordinates the workflow.

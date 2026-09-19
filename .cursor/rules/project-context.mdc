@@ -1,0 +1,8 @@
+---
+description: Keep the shared hiring-trust problem and product decisions in context throughout the project.
+alwaysApply: true
+---
+
+Read `PROJECT_CONTEXT.md` at the repository root before planning, implementing or reviewing project work. Apply its problem statement, selected user journey, MVP boundaries and evidence requirements. Delegated agents must read it too; include its path in their task instructions.
+
+When the team selects a direction or changes product scope, update its decisions section to reflect that explicit decision. Do not invent missing decisions or require users to fill out the document before ordinary feature work. Honor the user's latest explicit instructions and surface material conflicts briefly.
